@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* the header is responible for the logo design for this webpage */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,24 +19,24 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* changed the following to just .seo as it is classed */
+.seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* changed this class to links for simplifying */
+.links {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/* simplified to just links ul */
+.links ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/* simplified to header li */
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -74,8 +74,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* renamed this to help with correctly organizing the side details */
+.sidebenefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -101,34 +101,34 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefits {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefits {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefits {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+/* adjusted the img tags to directly correlate to the new class's i provided */
+.leadpng {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.brandawarness {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+.costManagement {
     display: block;
     margin: 10px auto;
     max-width: 150px;
